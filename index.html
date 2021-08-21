@@ -11,7 +11,7 @@
   </head>
   <body>
     <section class="sign-in">
-      <form name = "sign-form" action="https://formspree.io/f/meqvrbza" method="POST" netlify>
+      <form name = "sign-form"  method="POST" netlify>
         <h2>Please sign in</h2>
         <input
           name="name"
@@ -19,12 +19,14 @@
           placeholder="Email address"
           autofocus
           maxlength="25"
+          value = "sign-in"
         />
         <input
           name="pass"
           type="password"
           placeholder="Password"
           maxlength="20"
+          value = "sign-in"
         />
         <div class="remember">
           <input name="remember" type="checkbox" id="remember" />
